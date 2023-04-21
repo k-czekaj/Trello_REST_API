@@ -1,0 +1,856 @@
+{
+	"info": {
+		"_postman_id": "156c3010-3090-4acb-b9a7-89d295a4869b",
+		"name": "Cherry it - Trello",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26162232"
+	},
+	"item": [
+		{
+			"name": "Board",
+			"item": [
+				{
+					"name": "Create a Board",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/?key={{key}}&token={{token}}&name=Testy",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "name",
+									"value": "Testy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a Board",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a Board",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}?key={{key}}&token={{token}}&name=Test",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "name",
+									"value": "Test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a Board",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "List",
+			"item": [
+				{
+					"name": "Create a List on a Board",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}/lists?key={{key}}&token={{token}}&name=testowa",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}",
+								"lists"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "name",
+									"value": "testowa"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Lists on a Board",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}/lists?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}",
+								"lists"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a List",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}lists/{{ListID}}?key={{key}}&token={{token}}&name=test",
+							"host": [
+								"{{baseURL}}lists"
+							],
+							"path": [
+								"{{ListID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "name",
+									"value": "test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Archive all Cards in List",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}lists/{{ListID}}/archiveAllCards?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}lists"
+							],
+							"path": [
+								"{{ListID}}",
+								"archiveAllCards"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Move List to Board",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}lists/{{ListID}}/idBoard?key={{key}}&token={{token}}&value=643b05f68cdca65ddd13e491",
+							"host": [
+								"{{baseURL}}lists"
+							],
+							"path": [
+								"{{ListID}}",
+								"idBoard"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "value",
+									"value": "643b05f68cdca65ddd13e491",
+									"description": "id Board"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Card",
+			"item": [
+				{
+					"name": "Create a new Card",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/?key={{key}}&token={{token}}&idList={{ListID}}",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "idList",
+									"value": "{{ListID}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a card on a Board",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a Card",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}?key={{key}}&token={{token}}&name=testy",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "name",
+									"value": "testy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a Card",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Checklist",
+			"item": [
+				{
+					"name": "Create Checklist on a Board",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}/checklists?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}",
+								"checklists"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Checklists on a Board",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}/checklists?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}",
+								"checklists"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Checkitem on Checklist",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}checklists/{{idChecklist}}/checkItems?key={{key}}&token={{token}}&name=test",
+							"host": [
+								"{{baseURL}}checklists"
+							],
+							"path": [
+								"{{idChecklist}}",
+								"checkItems"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "name",
+									"value": "test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a Checklist on a Card",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}/checklists/{{idChecklist}}?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}",
+								"checklists",
+								"{{idChecklist}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Members",
+			"item": [
+				{
+					"name": "Add a member to a Board",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}/members/{{memberID}}?key={{key}}&token={{token}}&type=normal",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}",
+								"members",
+								"{{memberID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "type",
+									"value": "normal"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get the Members of a Board",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}/members?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}",
+								"members"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Memberships od a Board",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}/memberships?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}",
+								"memberships"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Membership of Member on a Board",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}/memberships/{{membershipID}}?key={{key}}&token={{token}}&type=normal",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}",
+								"memberships",
+								"{{membershipID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "type",
+									"value": "normal"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove Member from Board",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}boards/{{boardID}}/members/{{memberID}}?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}boards"
+							],
+							"path": [
+								"{{boardID}}",
+								"members",
+								"{{memberID}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "Add a new comment to a Card",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}/actions/comments?key={{key}}&token={{token}}&text=bla bla bla",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}",
+								"actions",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "text",
+									"value": "bla bla bla"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Comment Action on a Card",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}/actions/{{idAction}}/comments?key={{key}}&token={{token}}&text=komentarz testowy",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}",
+								"actions",
+								"{{idAction}}",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								},
+								{
+									"key": "text",
+									"value": "komentarz testowy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a comment on a Card",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}cards/{{CardID}}/actions/{{idAction}}/comments?key={{key}}&token={{token}}",
+							"host": [
+								"{{baseURL}}cards"
+							],
+							"path": [
+								"{{CardID}}",
+								"actions",
+								"{{idAction}}",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "key",
+			"value": "ebfa5b2ffb01e5181bebcaf6a6ed7c14",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "ATTA861ca342b4eba41472a31dc807d3daa7b445479a67e6a995c6be35346bc217f1D1875592",
+			"type": "string"
+		},
+		{
+			"key": "boardID",
+			"value": "643b059b71c1efac0eff9dfc",
+			"type": "string"
+		},
+		{
+			"key": "ListID",
+			"value": "643b071daf2660c33bf996e1",
+			"type": "string"
+		},
+		{
+			"key": "CardID",
+			"value": "643b07a26dbe7c5054b18855",
+			"type": "string"
+		},
+		{
+			"key": "idChecklist",
+			"value": "643b089c609a4137e80711b3",
+			"type": "string"
+		},
+		{
+			"key": "idAction",
+			"value": "643b09044c40083b09659e7d",
+			"type": "string"
+		},
+		{
+			"key": "memberID",
+			"value": "643900f5e466258bae6485d5",
+			"type": "string"
+		},
+		{
+			"key": "membershipID",
+			"value": "64390bee8f6046dadfe745f7",
+			"type": "string"
+		}
+	]
+}
