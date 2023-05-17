@@ -4,7 +4,7 @@
 
 COLT is charitable 4-week collaborative testing project organised by Cherry IT. The result of the project is a collection of Trello REST API tests. Tests were performed in the Postman tool.
 
-## Test scope
+## Test scope based on Trello API documentation
 
 - Board
   - Create a Board
