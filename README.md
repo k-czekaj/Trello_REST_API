@@ -73,7 +73,7 @@ The result of the project is a collection of Trello REST API tests performed in 
 #### <a name="four">:open_file_folder: Importing a file into Postman</a>
 
 1. Go to [my Postman collection file](https://github.com/k-czekaj/Trello_REST_API/blob/main/Trello%20-%20REST%20API.postman_collection.json).
-2. Click on the three dots icon in the top right corner and click Download.
+2. Click on the three dots icon in the top right corner and click "Download".
 3. Run Postman and click on "Import" button in the top left corner.
 4. Drag and drop the downloaded file from the Download folder into the "Import" window.
 5. The collection will appear in Postman, ready for use.   
