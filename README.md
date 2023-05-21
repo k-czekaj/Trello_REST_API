@@ -2,7 +2,7 @@
 
 ## About project
 
-COLT is charitable 4-week collaborative testing project organised by Cherry IT. The result of the project is a collection of Trello REST API tests. Tests were performed in the Postman tool.
+COLT is charitable 4-week collaborative testing project organised by [Cherry IT](http://cherry-it.pl/podsumowanie-colt-1-2023/). The result of the project is a collection of Trello REST API tests. Tests were performed in the Postman tool.
 
 ## Test scope based on Trello API documentation
 
