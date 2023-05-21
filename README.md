@@ -2,35 +2,35 @@
 
 ## :information_desk_person: About project
 
-<p align="justify">COLT is charitable 4-week collaborative testing project organised by [Cherry IT](http://cherry-it.pl/podsumowanie-colt-1-2023/). During the project, I had the opportunity to learn about the basic knowledge of the REST API, get to know the Postman tool, create my own collections based on Trello documentation, learn GIT and get to know GitHub. The result of the project is a collection of Trello REST API tests performed in the Postman tool.</p>
+<p align="justify">COLT is charitable 4-week collaborative testing project organised by <a href="http://cherry-it.pl/podsumowanie-colt-1-2023/" target="_blank">Cherry IT</a>. During the project, I had the opportunity to learn about the basic knowledge of the REST API, get to know the Postman tool, create my own collections based on Trello documentation, learn GIT and get to know GitHub. The result of the project is a collection of Trello REST API tests performed in the Postman tool.</p>
 
 ## :mag_right: Test scope based on [Trello API documentation](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/)
 
-- Board
+- **Board**
   - Create a Board
   - Get a Board
   - Update a Board
-- List
+- **List**
   - Create a List on a Board
   - Get Lists on Board
   - Update a List
   - Archieve all Cards in List
-- Card
+- **Card**
   - Create a new Card
   - Get a Card on a Board
   - Update a Card
-- Checklist
+- **Checklist**
   - Create Checklist on a Board
   - Get Checklists on a Board
   - Create Checkitem on Checklist
-- Delete
+- **Delete**
   - Delete a Checklist on a Card
   - Delete a Card 
   - Delete a Board
 
 ## :rocket: Getting started
 
-### :pushpin: List of steps needed to run collection and tests
+#### :pushpin: List of steps needed to run collection and tests
 
 1️⃣ [Postman installation](#one)
 
@@ -43,6 +43,8 @@
 :five: [Creating environment variables in Postman](#five)
 
 :six: [Run collection and testing](#six)
+
+------
 
 #### <a name="one">:computer: Postman installation</a>
 
@@ -89,6 +91,7 @@
 3. Select "Run collection" from the list.
 4. Click one the orange button "Run Trello - REST API".
 
+--------
 ### :point_down: If the view in your Postman looks like the one on the screenshot below, then you have successfully completed all the steps and run my collection. CONGRATULATIONS! :clap:
 
 ![2023-05-21_17h00_40](https://github.com/k-czekaj/Trello_REST_API/assets/122294284/b99d7fa1-1199-4846-a95e-a2473926df8d)
