@@ -30,7 +30,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 
 ## Getting started
 
-### List of steps needed to run collection and tests
+### :pushpin: List of steps needed to run collection and tests
 
 1️⃣ [Postman installation](#one)
 
@@ -66,7 +66,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 6. Allow application to access your Trello account.
 7. Your token will be displayed on the page. Copy and save it for later to use in Postman.
 
-#### <a name="four">Importing a file into Postman</a>
+#### <a name="four">:open_file_folder: Importing a file into Postman</a>
 
 1. Go to [my Postman collection file](https://github.com/k-czekaj/Trello_REST_API/blob/main/Trello%20-%20REST%20API.postman_collection.json).
 2. Click on the three dots icon in the top right corner and click Download.
@@ -74,7 +74,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 4. Drag and drop the downloaded file from the Download folder into the "Import" window.
 5. The collection will appear in Postman, ready for use.   
 
-#### <a name="five">Creating environment variables in Postman</a>
+#### <a name="five">:earth_africa: Creating environment variables in Postman</a>
 
 1. Click on the "Environment" dropdown in the top left corner in Postman.
 2. Click on the "New" button to create a new environment and choose "Environment" icon.
@@ -83,14 +83,14 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 5. Click "Save" button to save the environment.
 6. Click on the "Environment" dropdown in the top left corner and select the environment you just created.
 
-#### <a name="six">Run collection and testing</a>
+#### <a name="six">:runner: Run collection and testing</a>
 
 1. Click on the "Collections" icon in Postman.
 2. From the list of collections, select the one named "Trello - REST API" and click on the icon with three dots that appears when you hover over the collection name.
 3. Select "Run collection" from the list.
 4. Click one the orange button "Run Trello - REST API".
 
-If the view in your Postman looks like the one on the screenshot below, then you have successfully completed all the steps and launched my collection. Congratulations!
+### :point_down: If the view in your Postman looks like the one on the screenshot below, then you have successfully completed all the steps and run my collection. CONGRATULATIONS! :clap:
 
 ![2023-05-21_17h00_40](https://github.com/k-czekaj/Trello_REST_API/assets/122294284/b99d7fa1-1199-4846-a95e-a2473926df8d)
 
