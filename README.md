@@ -32,7 +32,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 
 ### List of steps needed to run collection and tests
 
-1️⃣ Postman installation
+1️⃣ [Postman installation](#one)
 
 :two: Creating a Trello account
 
@@ -44,7 +44,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 
 :six: Run collection and testing
 
-#### Postman installation
+#### <a name=one>Postman installation</a>
 
 1. Go to the [Postman website](https://www.postman.com/downloads/) and click the orange button with name of your operating system.
 2. Download the installation file, then run the installer and follow the instructions that appear.
