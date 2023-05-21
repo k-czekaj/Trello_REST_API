@@ -1,10 +1,10 @@
 # COLT 01/2023 project: Trello REST API testing with Postman
 
-## About project
+## :information_desk_person: About project
 
 COLT is charitable 4-week collaborative testing project organised by [Cherry IT](http://cherry-it.pl/podsumowanie-colt-1-2023/). During the project, I had the opportunity to learn about the basic knowledge of the REST API, get to know the Postman tool, create my own collections based on Trello documentation, learn GIT and get to know GitHub. The result of the project is a collection of Trello REST API tests performed in the Postman tool.
 
-## Test scope based on [Trello API documentation](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/)
+## :mag_right: Test scope based on [Trello API documentation](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/)
 
 - Board
   - Create a Board
@@ -28,7 +28,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
   - Delete a Card 
   - Delete a Board
 
-## Getting started
+## :rocket: Getting started
 
 ### :pushpin: List of steps needed to run collection and tests
 
@@ -44,19 +44,19 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 
 :six: [Run collection and testing](#six)
 
-#### <a name="one">Postman installation</a>
+#### <a name="one">:computer: Postman installation</a>
 
 1. Go to the [Postman website](https://www.postman.com/downloads/) and click the orange button with name of your operating system.
 2. Download the installation file, then run the installer and follow the instructions that appear.
 3. Postman is ready to use.
     
-#### <a name="two">Creating a Trello account</a>
+#### <a name="two">:date: Creating a Trello account</a>
 
 1. Go to the [Trello website](https://trello.com/) and click the blue button with text "Get Trello for free".
 2. Create a Trello account by following the instructions that apper.
 3. Your Trello account is ready to use.
 
-#### <a name="three">Trello authentication</a>
+#### <a name="three">:key: Trello authentication</a>
 
 1. Log in to your Trello account.
 2. Go to the [Trello developer API key generation page](https://trello.com/app-key).
