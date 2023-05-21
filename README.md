@@ -32,12 +32,17 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 
 ### List of steps needed to run collection and tests
 
-1. Postman installation
-2. Creating a Trello account
-3. Trello authentication
-4. Importing a file into Postman
-5. Creating environment variables in Postman
-6. Run collection and testing
+1️⃣ Postman installation
+
+:two: Creating a Trello account
+
+:three: Trello authentication
+
+:four: Importing a file into Postman
+
+:five: Creating environment variables in Postman
+
+:six: Run collection and testing
 
 #### Postman installation
 
