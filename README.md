@@ -57,7 +57,7 @@ The result of the project is a collection of Trello REST API tests performed in 
 #### <a name="two">:date: Creating a Trello account</a>
 
 1. Go to the [Trello website](https://trello.com/) and click the blue button with text "Get Trello for free".
-2. Create a Trello account by following the instructions that apper.
+2. Create a Trello account by following the instructions that appear.
 3. Your Trello account is ready to use.
 
 #### <a name="three">:key: Trello authentication</a>
