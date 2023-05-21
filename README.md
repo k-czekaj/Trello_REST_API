@@ -68,28 +68,27 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 
 #### Importing a file into Postman
 
-1. Clone the repository on your computer
-2. Run Postman and click on "Import" in the top left corner.
-3. Drag and drop the files "File name" from the cloned repository folder into the "Import" window.
-4. Choose to import your API as a Postman Collection or as OpenAPI 3.0 with a Postman Collection
-5. The collection will be downloaded and saved in Postman, ready for use.   
+1. Go to [my Postman collection file](https://github.com/k-czekaj/Trello_REST_API/blob/main/Trello%20-%20REST%20API.postman_collection.json).
+2. Click on the three dots icon in the top right corner and click Download.
+3. Run Postman and click on "Import" button in the top left corner.
+4. Drag and drop the downloaded file from the Download folder into the "Import" window.
+5. The collection will appear in Postman, ready for use.   
 
 #### Creating environment variables in Postman
 
-    Open Postman and click on the "Environment" dropdown in the top left corner.
-    Click on the "New" button to create a new environment and choose "Environment" icon.
-    Give your environment a name and add the Trello API key and token as key-value pairs. NOTE! For collections from this repository, the API Key variable is named {{apiKey}} and the token variable is named {{apiToken}}.
-    Click "Save" to save the environment.
-    In your request, click on the "Environment" dropdown and select the environment you just created.
-    Use the {{Variable}} syntax in your request to reference the environment variables.
+1. Click on the "Environment" dropdown in the top left corner in Postman.
+2. Click on the "New" button to create a new environment and choose "Environment" icon.
+3. Give your environment a name.
+4. Create a "key", "token" and "baseURL" variable. **For collections from this repository, the API key variable is named {{key}}, the token variable is named {{token}} and the URL variable is named {{baseURL}}**. You should enter the value "https://api.trello.com/1/" into the "baseURL" variable and the value of your key and token in the "key" and "token" variable.
+5. Click "Save" button to save the environment.
+6. Click on the "Environment" dropdown in the top left corner and select the environment you just created.
 
 #### Run collection and testing
 
-1. Log in to Postman.
-2. Click on the "Collections" icon.
-3. From the list of collections, select the one named "The Trello REST API" and click on the icon with three dots that appears when you hover over the collection name.
-4. Select "Run collection".
-5. Click one the "Run The Trello REST API".
+1. Click on the "Collections" icon in Postman.
+2. From the list of collections, select the one named "Trello - REST API" and click on the icon with three dots that appears when you hover over the collection name.
+3. Select "Run collection" from the list.
+4. Click one the orange button "Run Trello - REST API".
 
 If the view in your Postman looks like the one on the screenshot below, then you have successfully completed all the steps and launched my collection. Congratulations!
 
