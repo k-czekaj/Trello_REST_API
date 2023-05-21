@@ -34,29 +34,29 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 
 1️⃣ [Postman installation](#one)
 
-:two: Creating a Trello account
+:two: [Creating a Trello account](#two)
 
-:three: Trello authentication
+:three: [Trello authentication](#three)
 
-:four: Importing a file into Postman
+:four: [Importing a file into Postman](#four)
 
-:five: Creating environment variables in Postman
+:five: [Creating environment variables in Postman](#five)
 
-:six: Run collection and testing
+:six: [Run collection and testing](#six)
 
-#### <a name=one>Postman installation</a>
+#### <a name="one">Postman installation</a>
 
 1. Go to the [Postman website](https://www.postman.com/downloads/) and click the orange button with name of your operating system.
 2. Download the installation file, then run the installer and follow the instructions that appear.
 3. Postman is ready to use.
     
-#### Creating a Trello account
+#### <a name="two">Creating a Trello account</a>
 
 1. Go to the [Trello website](https://trello.com/) and click the blue button with text "Get Trello for free".
 2. Create a Trello account by following the instructions that apper.
 3. Your Trello account is ready to use.
 
-#### Trello authentication
+#### <a name="three">Trello authentication</a>
 
 1. Log in to your Trello account.
 2. Go to the [Trello developer API key generation page](https://trello.com/app-key).
@@ -66,7 +66,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 6. Allow application to access your Trello account.
 7. Your token will be displayed on the page. Copy and save it for later to use in Postman.
 
-#### Importing a file into Postman
+#### <a name="four">Importing a file into Postman</a>
 
 1. Go to [my Postman collection file](https://github.com/k-czekaj/Trello_REST_API/blob/main/Trello%20-%20REST%20API.postman_collection.json).
 2. Click on the three dots icon in the top right corner and click Download.
@@ -74,7 +74,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 4. Drag and drop the downloaded file from the Download folder into the "Import" window.
 5. The collection will appear in Postman, ready for use.   
 
-#### Creating environment variables in Postman
+#### <a name="five">Creating environment variables in Postman</a>
 
 1. Click on the "Environment" dropdown in the top left corner in Postman.
 2. Click on the "New" button to create a new environment and choose "Environment" icon.
@@ -83,7 +83,7 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 5. Click "Save" button to save the environment.
 6. Click on the "Environment" dropdown in the top left corner and select the environment you just created.
 
-#### Run collection and testing
+#### <a name="six">Run collection and testing</a>
 
 1. Click on the "Collections" icon in Postman.
 2. From the list of collections, select the one named "Trello - REST API" and click on the icon with three dots that appears when you hover over the collection name.
