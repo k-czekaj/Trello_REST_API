@@ -2,7 +2,9 @@
 
 ## :information_desk_person: About project
 
-<p align="justify">COLT is charitable 4-week collaborative testing project organised by <a href="http://cherry-it.pl/podsumowanie-colt-1-2023/" target="_blank">Cherry IT</a>. During the project, I had the opportunity to learn about the basic knowledge of the REST API, get to know the Postman tool, create my own collections based on Trello documentation, learn GIT and get to know GitHub. The result of the project is a collection of Trello REST API tests performed in the Postman tool.</p>
+<p align="justify">COLT is charitable 4-week collaborative testing project organised by <a href="http://cherry-it.pl/podsumowanie-colt-1-2023/" target="_blank">Cherry IT</a>. During the project, I had the opportunity to learn about the basic knowledge of the REST API, get to know the Postman tool, create my own collections based on Trello documentation, learn GIT and get to know GitHub. 
+
+The result of the project is a collection of Trello REST API tests performed in the Postman tool.</p>
 
 ## :mag_right: Test scope based on [Trello API documentation](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/)
 
