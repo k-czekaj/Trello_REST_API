@@ -65,10 +65,10 @@ The result of the project is a collection of Trello REST API tests performed in 
 1. Log in to your Trello account.
 2. Go to the [Trello developer API key generation page](https://trello.com/app-key).
 3. Click on the "Go to the Power-Up Admin Portal", then click "Create New Key" button and enter the required details.
-4. Your API key will be displayed on the page. Copy and save it for later to use in Postman.
-5. Next, click on the Token link that under the key you just generated.
+4. Your API key will be displayed on the page. Copy and save it for later use in Postman.
+5. Next, click on the Token link that appears under the key you just generated.
 6. Allow application to access your Trello account.
-7. Your token will be displayed on the page. Copy and save it for later to use in Postman.
+7. Your token will be displayed on the page. Copy and save it for later use in Postman.
 
 #### <a name="four">:open_file_folder: Importing a file into Postman</a>
 
