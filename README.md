@@ -2,7 +2,7 @@
 
 ## :information_desk_person: About project
 
-COLT is charitable 4-week collaborative testing project organised by [Cherry IT](http://cherry-it.pl/podsumowanie-colt-1-2023/). During the project, I had the opportunity to learn about the basic knowledge of the REST API, get to know the Postman tool, create my own collections based on Trello documentation, learn GIT and get to know GitHub. The result of the project is a collection of Trello REST API tests performed in the Postman tool.
+<p align="justify">COLT is charitable 4-week collaborative testing project organised by [Cherry IT](http://cherry-it.pl/podsumowanie-colt-1-2023/). During the project, I had the opportunity to learn about the basic knowledge of the REST API, get to know the Postman tool, create my own collections based on Trello documentation, learn GIT and get to know GitHub. The result of the project is a collection of Trello REST API tests performed in the Postman tool.</p>
 
 ## :mag_right: Test scope based on [Trello API documentation](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/)
 
@@ -75,13 +75,12 @@ COLT is charitable 4-week collaborative testing project organised by [Cherry IT]
 5. The collection will appear in Postman, ready for use.   
 
 #### <a name="five">:earth_africa: Creating environment variables in Postman</a>
-
 1. Click on the "Environment" dropdown in the top left corner in Postman.
 2. Click on the "New" button to create a new environment and choose "Environment" icon.
 3. Give your environment a name.
 4. Create a "key", "token" and "baseURL" variable. You should enter the value "https://api.trello.com/1/" into the "baseURL" variable and the value of your key and token in the "key" and "token" variable. **For collections from this repository, the API key variable is named {{key}}, the token variable is named {{token}} and the URL variable is named {{baseURL}}**.
 5. Click "Save" button to save the environment.
-6. Click on the "Environment" dropdown in the top left corner and select the environment you just created.
+6. Click on the "Environment" dropdown in the top left corner and select the environment you just created.</p>
 
 #### <a name="six">:runner: Run collection and testing</a>
 
